@@ -1,2 +1,2 @@
-# Dance_Machine
-A deeplearning model that generates general movements in a time series way
+# dance_generator
+The aim of current project is to generate dance movements

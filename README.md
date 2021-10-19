@@ -1,4 +1,4 @@
-# dance_generator
+# Movement_generator
 The aim of current project is to generate general movements of human body
 
 Libraries used: 

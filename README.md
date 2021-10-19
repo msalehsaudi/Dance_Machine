@@ -1,7 +1,7 @@
 # Movement_generator
 The aim of current project is to generate general movements of human body
 
-Libraries used: 
+## Libraries used: 
     -openCV
     -Mediapipe
     -Numpy
@@ -10,14 +10,14 @@ Libraries used:
     -matplotlib
     -imageio
 
-Technologies used: 
+## Technologies used: 
     - Feature extraction from pose detection using opensource library mediapipe.
     - Future generation with deeplearning time series multivariate using: 
         -LSTM long short term memory.
         -Autoregression.
     -plotting, and animation using matplotlib and mediapipe libraries.
 
-Main idea: 
+## Main idea: 
 
     1-Gathering data using mp4 videos of a solo dance style (about 8 hours of dances).
     2-Extraction of data from these videos in form of coordinates (x,y,z) for every movement joint (33 joints) in each frame of the video. (24 frames per second).
@@ -26,7 +26,7 @@ Main idea:
     5-For feature reduction we divided our model into smaller groups of areas moving independantly to get a better prediction and reduce dampening of the results.
 
 
-How to use: 
+## How to use: 
 
     1-You need to download your videos (it has to be only movement videos with a human pose) and save in 'videos' folder in your directory.
     
